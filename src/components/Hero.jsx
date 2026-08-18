@@ -38,7 +38,6 @@ export default function Hero() {
       </div>
 
       <div className={`hero__content container${loaded ? ' hero__content--visible' : ''}`}>
-        <p className="hero__label">Creative Services</p>
         <p className="hero__sub hero__sub--large">
           Portrait, lifestyle, and event photography<br />
           crafted with intention.
