@@ -807,20 +807,19 @@ input, textarea, select {
 
 .footer__logo {
   display: flex;
-  flex-direction: column;
-  gap: 3px;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 8px;
   margin-bottom: 22px;
 }
-.footer__logo-text {
-  font-family: var(--font-serif);
-  font-size: 20px;
-  letter-spacing: 0.18em;
-}
+.footer__logo-text,
 .footer__logo-sub {
-  font-size: 8px;
-  letter-spacing: 0.35em;
+  font-family: var(--font-sans);
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--accent);
+  color: var(--text);
 }
 .footer__tagline {
   font-size: 13px;

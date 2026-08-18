@@ -21,12 +21,6 @@ export default function Footer() {
           </div>
 
           <div className="footer__links-col">
-            <h4 className="footer__col-title">Services</h4>
-            <span className="footer__link">Portrait Sessions</span>
-            <span className="footer__link">Event Coverage</span>
-          </div>
-
-          <div className="footer__links-col">
             <h4 className="footer__col-title">Connect</h4>
             <a href="mailto:hello@photomiguel.com" className="footer__link">hello@photomiguel.com</a>
           </div>
