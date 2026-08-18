@@ -25,8 +25,8 @@ export default function Navbar() {
     <nav className={`navbar${scrolled ? ' navbar--scrolled' : ''}`}>
       <div className="navbar__inner container">
         <a href="#" className="navbar__logo" onClick={e => handleLink(e, '#home')}>
-          <span className="navbar__logo-text">VERSION 9</span>
-          <span className="navbar__logo-sub">STUDIO</span>
+          <span className="navbar__logo-text">MIGUEL</span>
+          <span className="navbar__logo-sub">FLORES</span>
         </a>
 
         <div className={`navbar__links${mobileOpen ? ' navbar__links--open' : ''}`}>

@@ -7,8 +7,8 @@ export default function Footer() {
         <div className="footer__top">
           <div className="footer__brand">
             <div className="footer__logo">
-              <span className="footer__logo-text">VERSION 9</span>
-              <span className="footer__logo-sub">STUDIO</span>
+              <span className="footer__logo-text">MIGUEL</span>
+              <span className="footer__logo-sub">FLORES</span>
             </div>
           </div>
 
