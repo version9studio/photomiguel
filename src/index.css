@@ -800,9 +800,18 @@ input, textarea, select {
 
 .footer__top {
   display: grid;
-  grid-template-columns: 1.6fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 60px;
   padding-bottom: 64px;
+}
+
+.footer__brand {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__connect {
+  margin-top: 28px;
 }
 
 .footer__logo {
