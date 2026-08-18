@@ -17,7 +17,7 @@ export default function Gallery() {
     <section className="gallery" id="gallery">
       <div className="container">
         <div className={`gallery__header reveal${headerVisible ? ' visible' : ''}`} ref={headerRef}>
-          <p className="section-label">Our Work</p>
+          <p className="section-label">Work</p>
           <h2 className="section-heading section-heading--sans">Curated Projects</h2>
         </div>
 

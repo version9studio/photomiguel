@@ -44,7 +44,7 @@ export default function Hero() {
         </p>
         <div className="hero__ctas">
           <button className="btn-outline" onClick={() => scrollTo('#gallery')}>
-            View Our Work
+            View Work
           </button>
           <button className="btn-outline" onClick={() => scrollTo('#contact')}>
             Book a Session

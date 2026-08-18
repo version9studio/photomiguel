@@ -111,7 +111,7 @@ input, textarea, select {
 }
 .section-heading--sans {
   font-family: var(--font-sans);
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 0.14em;
   text-transform: uppercase;
 }
@@ -181,14 +181,15 @@ input, textarea, select {
 
 .navbar__logo {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: baseline;
   line-height: 1;
-  gap: 3px;
+  gap: 8px;
 }
 .navbar__logo-text,
 .navbar__logo-sub {
   font-family: var(--font-sans);
-  font-size: 11px;
+  font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.14em;
   text-transform: uppercase;

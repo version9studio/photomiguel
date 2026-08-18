@@ -14,7 +14,7 @@ export default function Footer() {
 
           <div className="footer__links-col">
             <h4 className="footer__col-title">Navigation</h4>
-            <a href="#gallery" className="footer__link" onClick={e => { e.preventDefault(); scrollTo('#gallery') }}>Our Work</a>
+            <a href="#gallery" className="footer__link" onClick={e => { e.preventDefault(); scrollTo('#gallery') }}>Work</a>
             <a href="#about" className="footer__link" onClick={e => { e.preventDefault(); scrollTo('#about') }}>About</a>
             <a href="#contact" className="footer__link" onClick={e => { e.preventDefault(); scrollTo('#contact') }}>Contact</a>
             <a href="#contact" className="footer__link" onClick={e => { e.preventDefault(); scrollTo('#contact') }}>Book a Session</a>

@@ -41,8 +41,8 @@ export default function Contact() {
           <p className="section-label">Get In Touch</p>
           <h2 className="section-heading">Book Your Session</h2>
           <p className="contact__intro">
-            Ready to create something beautiful together? Tell us about your vision
-            and we&apos;ll be in touch shortly.
+            Ready to create something beautiful together? Tell me about your vision
+            and I&apos;ll be in touch shortly.
           </p>
         </div>
 
@@ -70,7 +70,7 @@ export default function Contact() {
               <div className="contact__success">
                 <span className="contact__success-icon">✓</span>
                 <h3>Message Sent!</h3>
-                <p>We&apos;ll be in touch shortly.</p>
+                <p>I&apos;ll be in touch shortly.</p>
               </div>
             ) : (
               <form
@@ -144,7 +144,7 @@ export default function Contact() {
                   />
                 </div>
                 <div className="contact__field">
-                  <label className="contact__label">Tell Us About Your Vision *</label>
+                  <label className="contact__label">Tell Me About Your Vision *</label>
                   <textarea
                     className="contact__input contact__textarea"
                     name="message"
