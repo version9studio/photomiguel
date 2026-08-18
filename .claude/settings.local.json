@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create *)",
+      "Bash(which node *)",
+      "Bash(export PATH=\"$PATH:/usr/local/bin:/opt/homebrew/bin:/opt/homebrew/sbin\")",
+      "Bash(find /usr /opt /usr/local -name \"node\" -type f 2>/dev/null | head -5; find /usr /opt /usr/local -name \"npm\" -type f 2>/dev/null | head -5)",
+      "Read(//Users/miguelflores/**)",
+      "Read(//Applications/**)",
+      "Bash(brew list *)",
+      "Bash(brew --version)",
+      "Bash(/opt/homebrew/bin/brew install *)",
+      "Bash(export PATH=\"/opt/homebrew/bin:$PATH\")",
+      "Bash(npm --version)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(curl -s http://localhost:5173)",
+      "Bash(mkdir -p \"/Users/miguelflores/Desktop/Claude Portfolio Codes/Version 9/.claude\")",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(pkill -f \"vite\")",
+      "Bash(git --version)",
+      "Bash(gh --version)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git remote *)",
+      "Bash(git branch *)",
+      "Bash(git push *)",
+      "Bash(gh auth *)"
+    ]
+  }
+}
