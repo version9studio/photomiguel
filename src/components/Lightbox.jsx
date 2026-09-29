@@ -36,7 +36,7 @@ export default function Lightbox({ items, currentIndex, onClose, onPrev, onNext 
           {item.type === 'video' ? (
             <iframe
               className="lightbox__video"
-              src={`https://www.youtube.com/embed/${item.videoId}?autoplay=1&rel=0`}
+              src={`https://www.youtube.com/embed/${item.videoId}?autoplay=1&rel=0&modestbranding=1`}
               allow="autoplay; fullscreen"
               allowFullScreen
               title={item.title}
