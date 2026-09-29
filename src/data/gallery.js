@@ -350,10 +350,20 @@ export const galleryItems = [
     src: '/gallery/design-7.jpg',
     thumb: '/gallery/design-7.jpg',
   },
+  {
+    id: 501,
+    type: 'video',
+    category: 'video',
+    title: 'Video I',
+    subtitle: 'Video',
+    videoId: 'DULkmMZ3aKQ',
+    thumbnail: 'https://i.ytimg.com/vi/DULkmMZ3aKQ/hqdefault.jpg',
+  },
 ]
 
 export const categories = [
   { id: 'people', label: 'People' },
   { id: 'events', label: 'Events' },
   { id: 'design', label: 'Design' },
+  { id: 'video', label: 'Video' },
 ]

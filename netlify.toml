@@ -6,4 +6,4 @@
   for = "/*"
   [headers.values]
     X-Frame-Options = "SAMEORIGIN"
-    Content-Security-Policy = "frame-src 'self' https://offerday.ai https://*.offerday.ai;"
+    Content-Security-Policy = "frame-src 'self' https://offerday.ai https://*.offerday.ai https://www.youtube.com https://www.youtube-nocookie.com;"
